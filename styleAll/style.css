@@ -1,0 +1,588 @@
+
+body{
+    background-color:rgba(179, 164, 55, 0.048);
+    font-family: 'Caveat', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.catagotisFM{
+    margin-top: 100px;
+}
+
+.navbar{
+    padding: 20px;
+    height: 0px;
+    min-height: 12vh;
+    z-index: 2;
+    color: #fb5200;
+
+}
+
+
+.nav-bg{
+    background-color:rgba(236, 211, 20, 0);
+}
+.navbar-toggler{
+    background: #fb5200;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+    
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 3px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span{
+    width: 10px;
+    margin-left: 10px;
+}
+
+
+
+.hadder{
+    background-image: url(../Image/haderIMG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    border-bottom-right-radius:200px
+
+
+}
+.hadder img{
+    width:100%
+}
+.navbar-brand li{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(72, 34, 212);
+    color: white;
+    font-family:none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+.logo img{
+    width:200px;
+    margin-bottom: -100px;
+    margin-top: -20px;
+}
+.logo li{
+    list-style: none;
+}
+.card img{
+    height:600px
+}
+.catagories{
+    margin-top: 20px;
+}
+.banner2right{
+    margin-top: -16px;
+}
+.button1{
+    margin-top: 30px;
+}
+.button1 button{
+    border: 1px solid white;
+    color: white;
+
+    margin-right: 20px;
+    border-radius: 50px;
+
+}
+.button1 button:hover{
+    color: rgb(69, 207, 161);
+    transition: 0.5s;
+    border: 1px solid rgb(69, 207, 161);
+}
+.button1 a{
+    text-decoration: none;
+    color:fuchsia;
+}
+.button1 a:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+.catagories2{
+    margin-top: 100px;
+}
+.banner2left h1{
+    color: rgb(94, 88, 88);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.banner2left p{
+    color:rgb(146, 127, 104);
+    margin-bottom: 30px;
+
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, aqua, rgba(0, 204, 255, 0.842));
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+}
+.banner2left a:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.banner2Right{
+    width: 660px;
+
+}
+.banner2Right iframe{
+    border-radius: 6px;
+    width: 100%;
+}
+.catagories3{
+    margin-top: 150px;
+
+}
+.banner3 .card{
+    background-color: rgba(241, 241, 241, 0.589);
+    border: none;
+}
+
+.banner3 h2{
+
+    color: rgb(78, 71, 71);
+    margin-bottom: 100px;
+    font-weight: 700;
+
+}
+
+
+.card-img-top{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.banner3 img{
+    width:100px;
+    height: 100px;
+
+}
+.banner3 h5{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(88, 84, 84);
+}
+.banner3 p{
+   color: rgb(153, 125, 125); 
+   text-align: center;
+}
+.banner3 .card{
+    transition: 0.4s ease-in-out;
+}
+.banner3 .card:hover{
+    box-shadow: 0px 0px 10px 4px gray;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.banner3 a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    width: 200px;
+    margin: 40px;
+    transition: transform 1s ease-in-out
+}
+.btn3:hover{
+    transform: rotateX(360deg);
+    background-color: rebeccapurple;
+    transition: 1s ease-in-out;
+}
+.Blog img{
+    width: 200px;
+    height: 170px;
+}
+
+.Blog p{
+    color: rgb(139, 117, 117);
+}
+.Blog .card{
+    border: none;
+    background-color: white;
+}
+.Blog .card h5:hover{
+    color: rgba(8, 204, 90, 0.925);
+    transition: 0.3s
+}
+.team{
+    background-image: url(../Image/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center center;
+    background-attachment: fixed;
+}
+
+.catagories4{
+    width: 1337px;
+    margin-top: 50px;
+    background-image: url(../Image/banner1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cata41{
+    color: white;
+    max-width: 420px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.cata42{
+    width: 290px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 240, 0.384);
+    color: white;
+    margin-bottom: 50px;
+    color: black;
+
+}
+.cata42 img{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.cata411{
+    padding: 20px;
+    text-align: center;
+}
+.cata42 small{
+    color:hotpink;
+    font-weight: bolder;
+
+}
+.cata42 p{
+    width: 180px;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.cata42 .fab{
+    color: rgb(0, 255, 149);
+    font-size: 25px;
+    margin-right: 5px;;
+}
+.GET-A-QUOTE-NOW{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, aqua, rgba(0, 204, 255, 0.842));
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 90px
+}
+.banner2Right51 iframe{
+    border-radius: 6px;
+}
+.banner2left51 span{
+    color: rgb(94, 88, 88);
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.banner2left51 p{
+    color:rgb(146, 127, 104);
+    margin-bottom: 40px;
+
+}
+.banner2left51 a:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.catagories6 img{
+    width: 20%;
+    display: inline-block;
+}
+
+.cata61 p{
+    width: 250px;
+    background-image: linear-gradient(to bottom, rgba(0, 153, 255, 0.384), rgb(0, 174, 255));
+    padding:25px;
+    border-radius: 10px;
+
+}
+
+.cata611 p{
+    width: 250px;
+    background-image: linear-gradient(to bottom, rgba(0, 153, 255, 0.384), rgb(0, 174, 255));
+    padding:30px;
+    border-radius: 10px;
+    margin-top: 35px;
+
+
+}
+.cata611 span{
+    width: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.cata62{
+    margin-left: 90px;
+    margin-top: -57px;
+}
+.cata62 small{
+    color: rgb(128, 119, 119);
+}
+.catagorise7{
+    margin-top: 60px;
+    background-color: rgba(221, 221, 221, 0.301);
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+
+}
+.catagorise7 h1{
+    text-align: center;
+
+}
+.needIMG .fas{
+    font-size: 60px;
+    color: rgb(38, 209, 209);
+}
+.needIMG .fab{
+    font-size: 60px;
+    color: rgb(38, 209, 209);
+}
+
+.gallary-btn button{
+    background-color: aqua;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.gallary-btn button a{
+    color: white;
+}
+.gallary-btn button:hover{
+    color: white;
+    background-image: linear-gradient(to top, red, blue);
+    transition: 0.5s ease-in-out;
+}
+
+.Award-color{
+    color: green;
+}
+.blog-123{
+    float: right;
+    width: 400px;
+
+}
+.cata81{
+    width: 449px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.cata81 img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+.cata81 img:hover{
+
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    background-color: lightblue;
+    width: 102%;
+
+
+}
+.catagoris9{
+    background-color: aqua;
+    padding:40px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+
+
+}
+.catagoris9 p{
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    display: inline-block;
+}
+.catagoris9 a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: aquamarine;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+
+}
+.catagoris9 a:hover{
+    background-color: aqua;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.catagoris10{
+    background-image: url(../Image/footer5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    padding: 40px;
+}
+
+.cata103{
+    margin-bottom: 20px;
+}
+.cata103 img{
+    width: 25%;
+    display: inline-block
+
+}
+.cata104{
+    width: 280px;
+    float: right;
+}
+.cata104 small{
+    color: rgb(153, 138, 138);
+}
+.cata104 h6{
+    font-weight: 600;
+}
+.cata104 h6:hover{
+    color: aqua;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cata102 h5{
+    margin-bottom: 40px;
+
+}
+
+.cata105 p{
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.cata105:hover{
+    color: aqua;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.cata106{
+    width: 10px;
+
+    float: right;
+}
+.cata106:hover{
+    color: aqua;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.cata107{
+    padding: 40px;
+
+
+    
+}
+.cata1071 img{
+    width: 85%;
+
+}
+
+.cata1072 h4{
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cata1072{
+    padding-top: 10px;
+}
+.cata1075 p{
+    display: inline-block;
+    margin-right: 4px;
+}
+.cata1075 a{
+    text-decoration: none;
+    color: rgb(55, 218, 163);
+}
+
+.cata706 .fab{
+    color: aqua;
+    width: 20px;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cata706 .fab:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.cata706 .fas:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.cata706 .fa-facebook-square:hover{
+    color: rgb(0, 119, 255);
+}
+.cata706 .fa-instagram-square:hover{
+    color:gold ;
+}
+.cata706 .fa-linkedin:hover{
+    color: rgba(255, 102, 0, 0.753);
+
+}
+.cata706 .fa-twitter-square:hover{
+    color: rgb(255, 0, 200);
+}
+.cata706 .fa-youtube-square:hover{
+    color: red;
+}
+.cata706 .fa-envelope-square:hover{
+    color: white;
+}
+.cata706 .fas{
+    color: aqua;
+    width: 20px;
+    font-size: 30px;
+    margin-right: 15px;
+    transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.cata706 fas:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.cata706 .fa-envelope-square:hover{
+    color: rgb(0, 255, 13);
+}
+.cata706{
+    margin-top: 30px;
+
+}

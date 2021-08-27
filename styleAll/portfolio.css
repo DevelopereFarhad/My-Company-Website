@@ -1,0 +1,143 @@
+body{
+    background-color:rgba(179, 164, 55, 0.048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.navbar{
+    padding: 20px;
+    height: 0px;
+    min-height: 12vh;
+    z-index: 2;
+    color: #fb5200;
+
+}
+
+
+.nav-bg{
+    background-color:rgba(236, 211, 20, 0);
+}
+.navbar-toggler{
+    background: #fb5200;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+    
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 3px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span{
+    width: 10px;
+    margin-left: 10px;
+}
+.Iteams a{
+    color:rgb(69, 207, 161);
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.navbar-brand li{
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(72, 34, 212);
+    color: white;
+    font-family:none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+
+.navbar-brand img{
+    width:130px;
+    height: 50px;
+
+}
+header{
+    background-image: url(../Image/Portfolio/Backgorund/top-banner.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.secondBanner{
+    background-image: url(../Image/Portfolio/Backgorund/exp-bg.png);
+    background-position: left;
+    z-index: 2;
+    background-repeat: no-repeat;
+}
+.circuleIMG{
+    background-image: url(../Image/Portfolio/Backgorund/dream-bg.png);
+    background-position: right;
+    z-index: 2;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+}
+.topBanner p{
+    width: 500px;
+}
+.topBanner h1{
+    width: 400px;
+}
+.topBanner h3{
+    width: 400px;
+}
+.topWrite{
+    width: 550px;
+}
+.TBimg{
+    width: 600px;
+}
+.TBimg img{
+    width: 100%;
+}
+.FarhadC{
+    color: brown;
+}
+.TB-button a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    transition: 0.5s ease-in-out !important;
+
+}
+.TB-button:hover{
+    transition: 0.5s ease-in-out !important;
+
+
+}
+.SBl{
+    box-shadow: 5px 5px 5px 3px gray;
+    transition: 0.5s ease-in-out;
+}
+.SBl:hover{
+    box-shadow: 0px 0px 5px -2px gray;
+    transition: 0.5s ease-in-out;
+}
+.SBr{
+    box-shadow: 5px 5px 5px 3px gray;
+    transition: 0.5s ease-in-out;
+}
+.SBr:hover{
+    box-shadow: 0px 0px 5px -2px gray;
+    transition: 0.5s ease-in-out;
+}
+footer{
+    color: brown;
+    font-weight: bolder;
+}
